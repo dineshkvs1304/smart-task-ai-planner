@@ -64,16 +64,59 @@ The goal was to prioritize clarity and maintainability over feature volume.
 
 ## How to Run Locally
 
-### Backend setup
-1. Navigate to backend folder  
-2. Create virtual environment  
-3. Install dependencies from `requirements.txt`  
-4. Run Flask server  
+Follow these steps to run the project on your system.
 
-### Frontend setup
-1. Navigate to frontend folder  
-2. Run `npm install`  
-3. Run `npm start`  
+### 1. Clone the repository
+```bash
+git clone https://github.com/dineshkvs1304/smart-task-ai-planner.git
+cd smart-task-ai-planner
+```
+
+### 2. Start Backend Server
+Open a terminal and run:
+
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python -m app.main
+```
+
+Backend will start at:  
+http://127.0.0.1:5000  
+
+Test backend health:
+http://127.0.0.1:5000/api/health
+
+You should see a success response confirming the backend is running.
+
+---
+
+### 3. Start Frontend (open new terminal)
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+Frontend will run at:  
+http://localhost:3000  
+
+---
+
+### 4. Test the Application
+
+Once both backend and frontend are running:
+
+- Create a new task  
+- Try using words like **urgent**, **exam**, or **deadline**  
+- The system will automatically assign priority  
+- Mark the task as completed  
+- Verify status updates correctly in the UI  
+
+The SQLite database file will be created automatically inside the backend folder when the server runs.  
 
 ---
 
