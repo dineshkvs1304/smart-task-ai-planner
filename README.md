@@ -14,9 +14,7 @@ Tech Stack
 Backend
 
 Python
-
 Flask (API)
-
 SQLAlchemy
 
 SQLite
