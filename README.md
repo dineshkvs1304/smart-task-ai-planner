@@ -1,4 +1,4 @@
-#Smart Task AI Planner
+Smart Task AI Planner
 
 A full-stack AI-powered productivity system that helps users manage tasks intelligently using automated priority detection and clean workflow management.
 
@@ -11,23 +11,33 @@ Smart Task AI Planner is a minimal yet well-architected task management system d
 The system automatically analyzes task text and assigns priority using an extensible AI-assisted rule engine, while maintaining a simple and reliable user workflow.
 
 Tech Stack
+Backend
 
-Backend:
-*Python
-*Flask(API)
-*SQLAlchemy
-*SQLite
-*Structured logging 
+Python
 
-Frontend:
-*React
-*Clean component-based UI 
+Flask (API)
 
-Other:
-*REST API design
-*Modular architecture
-*AI-assisted priority engine 
-*Error handling and validation
+SQLAlchemy
+
+SQLite
+
+Structured logging
+
+Frontend
+
+React
+
+Clean component-based UI
+
+Other
+
+REST API design
+
+Modular architecture
+
+AI-assisted priority engine
+
+Error handling and validation
 
 Key Features
 
@@ -66,8 +76,7 @@ Simple predictable API design
 The goal was to prioritize clarity and maintainability over feature volume.
 
 How to Run Locally
-
-Backend setup:
+Backend setup
 
 Navigate to backend folder
 
@@ -77,7 +86,7 @@ Install dependencies from requirements.txt
 
 Run Flask server
 
-Frontend setup:
+Frontend setup
 
 Navigate to frontend folder
 
@@ -106,5 +115,4 @@ Author
 
 Kandyana Venkata Sai Dinesh
 B.Tech CSE
-
 
