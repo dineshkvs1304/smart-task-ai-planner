@@ -156,20 +156,6 @@ The goal was to prioritize clarity and maintainability over feature volume.
 
 ---
 
-## AI Usage
-AI was used as an engineering assistant for structuring, reviewing, and refining implementation decisions.  
-All generated logic and structure were manually reviewed and validated.
-
----
-
-## Future Improvements
-- User authentication  
-- Deployment (Docker/AWS)  
-- Advanced AI scheduling suggestions  
-- Unit and integration testing expansion  
-- Priority scoring model instead of keyword engine  
-
----
 
 ## AI Usage
 
